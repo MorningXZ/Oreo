@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lexer">
+      <UniqueIdentifier>{9b691bf8-44f0-436c-ac8c-dc0ffbc30ca5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lexer\lexer.cpp">
+      <Filter>lexer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexer\lexer.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="lexer\token.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
